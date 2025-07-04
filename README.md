@@ -17,16 +17,14 @@ Experiments were conducted using **Google Colab Pro** with 4-bit quantized model
 
 | Task                            | Model Used                           | Dataset / Source                           | Output Type         |
 |---------------------------------|--------------------------------------|--------------------------------------------|---------------------|
-| **Phishing Email Detection**    | Mistral 7B Instruct (Unsloth)        | 5 curated phishing datasets                | Structured JSON     |
-| **Threat Intelligence Extraction** | LLaMA 3.1 Instruct                  | CTI-HAL Dataset                             | MITRE TTP JSON      |
-| **Log Anomaly Detection**       | Gemma 1.1 Instruct (Unsloth)         | KDDCup'99                                   | Binary Class Label  |
-| **Threat Hunting Query Generation** | DeepSeek-Coder 6.7B Instruct      | Custom SPL instruction-template dataset     | SPL Queries         |
+| Phishing Email Detection        | Mistral 7B Instruct (Unsloth)        | 5 curated phishing datasets                | Structured JSON     |
+| Threat Intelligence Extraction  | LLaMA 3.1 Instruct                   | CTI-HAL Dataset                             | MITRE TTP JSON      |
+| Log Anomaly Detection           | Gemma 1.1 Instruct (Unsloth)         | KDDCup’99                                   | Binary Class Label  |
+| Log Query Generation (SPL)      | DeepSeek-Coder 6.7B Instruct         | Custom SPL instruction-template dataset     | SPL Queries         |
 
 ---
 
 ## 📊 Results Snapshot
-
-> 📌 Full evaluations are available in the notebook per task directory.
 
 | Task                      | Metric / Score                         | Notes                                                        |
 |--------------------------|----------------------------------------|--------------------------------------------------------------|
@@ -34,6 +32,19 @@ Experiments were conducted using **Google Colab Pro** with 4-bit quantized model
 | CTI Extraction (CTI-HAL) | F1 Score: 49.3%                         | Outperformed CTI-BERT baseline (F1 47.2%)                    |
 | Log Anomaly Detection    | Accuracy: 93.8%, F1 Score: 94.7%        | High precision and recall on KDDCup’99                       |
 | SPL Query Generation     | Template Match: 91%                     | Best results from template-based fine-tuning                 |
+
+---
+
+## 💻 Directory Structure
+
+```
+📁 phishing/               → Detection experiments across datasets  
+📁 cti/                    → MITRE TTP extraction from CTI reports  
+📁 logs/                   → Log anomaly detection using KDD  
+📁 spl_templates/          → Query generation using SPL instructions  
+📁 fine_tuning/            → QLoRA notebooks using Unsloth  
+📁 evaluation/             → Accuracy, F1, and output structure checks  
+```
 
 ---
 
@@ -48,13 +59,16 @@ Experiments were conducted using **Google Colab Pro** with 4-bit quantized model
 
 ## 📸 Screenshots & Examples
 
-> 📍 Add visuals of prompt structure, generated JSON, CTI extraction, and SPL generation here:
-
-```
-📷 [screenshot-placeholder-1.png]
-📷 [screenshot-placeholder-2.png]
-📷 [screenshot-placeholder-3.png]
-```
+| Screenshot | Description |
+|-----------|-------------|
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-1.png) | Phishing Email JSON output |
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-2.png) | CTI extraction using LLaMA |
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-3.png) | Log anomaly detection JSON |
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-4.png) | Template-based SPL generation |
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-5.png) | Prompt-only SPL comparison |
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-6.png) | Phishing detection metrics |
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-7.png) | CTI-HAL F1 score |
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-8.png) | SPL template match results |
 
 ---
 
