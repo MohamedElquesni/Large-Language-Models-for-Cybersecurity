@@ -35,19 +35,6 @@ Experiments were conducted using **Google Colab Pro** with 4-bit quantized model
 
 ---
 
-## 💻 Directory Structure
-
-```
-📁 phishing/               → Detection experiments across datasets  
-📁 cti/                    → MITRE TTP extraction from CTI reports  
-📁 logs/                   → Log anomaly detection using KDD  
-📁 spl_templates/          → Query generation using SPL instructions  
-📁 fine_tuning/            → QLoRA notebooks using Unsloth  
-📁 evaluation/             → Accuracy, F1, and output structure checks  
-```
-
----
-
 ## 🧪 Tools Used
 
 - 🧠 **LLMs**: Mistral 7B, LLaMA 3.1, Gemma 1.1, DeepSeek-Coder  
