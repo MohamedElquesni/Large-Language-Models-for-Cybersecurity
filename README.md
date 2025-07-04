@@ -28,25 +28,12 @@ Experiments were conducted using **Google Colab Pro** with 4-bit quantized model
 
 > 📌 Full evaluations are available in the notebook per task directory.
 
-| Task                      | Accuracy / Effectiveness            | Notes                                   |
-|--------------------------|-------------------------------------|-----------------------------------------|
-| Phishing Detection       | 92–97% accuracy                     | JSON preserved in ~98% of completions   |
-| CTI Extraction           | 87% micro-F1                        | High TTP alignment                      |
-| Log Anomaly Detection    | 96.2% binary classification         | Decoder outperformed encoder baseline   |
-| SPL Query Generation     | ~90% exact template match rate      | Works well with few-shot formatting     |
-
----
-
-## 💻 Directory Structure
-
-```
-📁 phishing/               → Detection experiments across datasets  
-📁 cti/                    → MITRE TTP extraction from CTI reports  
-📁 logs/                   → Log anomaly detection using KDD  
-📁 spl_templates/          → Query generation using SPL instructions  
-📁 fine_tuning/            → QLoRA notebooks using Unsloth  
-📁 evaluation/             → Accuracy, F1, and output structure checks  
-```
+| Task                      | Metric / Score                         | Notes                                                        |
+|--------------------------|----------------------------------------|--------------------------------------------------------------|
+| Phishing Detection       | Accuracy: 62.9–100% across datasets     | High recall, some false positives; JSON valid in 97.8% cases |
+| CTI Extraction (CTI-HAL) | F1 Score: 49.3%                         | Outperformed CTI-BERT baseline (F1 47.2%)                    |
+| Log Anomaly Detection    | Accuracy: 93.8%, F1 Score: 94.7%        | High precision and recall on KDDCup’99                       |
+| SPL Query Generation     | Template Match: 91%                     | Best results from template-based fine-tuning                 |
 
 ---
 
