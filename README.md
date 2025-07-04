@@ -59,16 +59,16 @@ Experiments were conducted using **Google Colab Pro** with 4-bit quantized model
 
 ## 📸 Screenshots & Examples
 
-| Screenshot | Description |
-|-----------|-------------|
+| Screenshot 
+|-----------|
 | ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/1.png) 
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-2.png) 
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-3.png) 
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-4.png) 
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-5.png)
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-6.png) 
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-7.png) 
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-8.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/2.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/3.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/4.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/5.png)
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/6.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/7.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/8.png) 
 
 ---
 
