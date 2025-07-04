@@ -61,7 +61,7 @@ Experiments were conducted using **Google Colab Pro** with 4-bit quantized model
 
 | Screenshot | Description |
 |-----------|-------------|
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-1.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/1.png) 
 | ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-2.png) 
 | ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-3.png) 
 | ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-4.png) 
