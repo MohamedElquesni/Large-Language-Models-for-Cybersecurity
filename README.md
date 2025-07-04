@@ -61,14 +61,14 @@ Experiments were conducted using **Google Colab Pro** with 4-bit quantized model
 
 | Screenshot | Description |
 |-----------|-------------|
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-1.png) | Phishing Email JSON output |
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-2.png) | CTI extraction using LLaMA |
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-3.png) | Log anomaly detection JSON |
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-4.png) | Template-based SPL generation |
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-5.png) | Prompt-only SPL comparison |
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-6.png) | Phishing detection metrics |
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-7.png) | CTI-HAL F1 score |
-| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/snapshots/screenshot-8.png) | SPL template match results |
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-1.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-2.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-3.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-4.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-5.png)
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-6.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-7.png) 
+| ![](https://github.com/MohamedElquesni/Large-Language-Models-for-Cybersecurity/raw/main/Snapshots/screenshot-8.png) 
 
 ---
 
