@@ -1,0 +1,4 @@
+https://anotherwrapper.com/tools/llm-pricing/deepseek-coder/gpt-3-5-turbo
+
+
+deepseek-coder is 72.0% less expensive than GPT-3.5-turbo

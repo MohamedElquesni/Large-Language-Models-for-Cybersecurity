@@ -1,8 +1,0 @@
-Objective : 
-
-Look for model that has these : 
-
-✅ Threat intelligence analysis (extracting security insights from reports).
-✅ Anomaly detection (finding unusual patterns in system logs).
-✅ Phishing detection (detecting malicious emails & links).
-✅ Automated incident response (AI-guided security responses).

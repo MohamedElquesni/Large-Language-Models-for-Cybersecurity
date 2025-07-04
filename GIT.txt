@@ -1,0 +1,10 @@
+cd "C:\Users\moham\OneDrive\Documents\Thesis"
+
+# Stage changes
+git add .
+
+# Commit with a message
+git commit -m "Updated dataset preprocessing script"  # or whatever change you made
+
+# Push to GitHub
+git push origin main

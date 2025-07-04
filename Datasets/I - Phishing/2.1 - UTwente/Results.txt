@@ -1,0 +1,7 @@
+📊 Evaluation Metrics (on valid responses):
+🧮 Accuracy : 0.8360
+✅ Precision: 0.7530
+🔁 Recall   : 1.0000
+⭐ F1 Score : 0.8591
+
+📦 Valid Predictions: 2000 / 2000 total
